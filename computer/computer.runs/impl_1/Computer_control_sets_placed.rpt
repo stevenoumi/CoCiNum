@@ -1,0 +1,154 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Mon Apr  3 20:43:22 2023
+| Host         : BODE02 running 64-bit Ubuntu 20.04.2 LTS
+| Command      : report_control_sets -verbose -file Computer_control_sets_placed.rpt
+| Design       : Computer
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    76 |
+|    Minimum number of control sets                        |    76 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    44 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    76 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |    30 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    40 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              84 |           31 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              57 |           28 |
+| Yes          | No                    | No                     |             394 |          150 |
+| Yes          | No                    | Yes                    |              16 |            8 |
+| Yes          | Yes                   | No                     |            1205 |          475 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+---------------------------------------+-------------------------------------------------+------------------+----------------+
+|   Clock Signal   |             Enable Signal             |                 Set/Reset Signal                | Slice Load Count | Bel Load Count |
++------------------+---------------------------------------+-------------------------------------------------+------------------+----------------+
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n58_q_reg          |                                                 |                1 |              1 |
+|  clk_i_IBUF_BUFG | I2CMaster_inst/n182_o                 |                                                 |                3 |              4 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n82_q_reg[0][0]    |                                                 |                2 |              7 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[0]_0[2] | sync_inst/data1_reg[0]                          |                3 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[0]_0[0] | sync_inst/data1_reg[0]                          |                5 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[0]_0[3] | sync_inst/data1_reg[0]                          |                2 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[0]_1[0] | sync_inst/data1_reg[0]                          |                3 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[0]_1[1] | sync_inst/data1_reg[0]                          |                3 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[0]_1[2] | sync_inst/data1_reg[0]                          |                2 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[0]_1[3] | sync_inst/data1_reg[0]                          |                3 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[0]_2[0] | sync_inst/data1_reg[0]                          |                5 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[0]_3[0] | sync_inst/data1_reg[0]                          |                3 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n82_q_reg[1][3]    |                                                 |                3 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[2]_4[0] | sync_inst/data1_reg[0]                          |                3 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[2]_4[1] | sync_inst/data1_reg[0]                          |                5 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[2]_4[2] | sync_inst/data1_reg[0]                          |                6 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[2]_4[3] | sync_inst/data1_reg[0]                          |                3 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n82_q_reg[1][2]    |                                                 |                3 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n82_q_reg[1][0]    |                                                 |                4 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n82_q_reg[1][1]    |                                                 |                2 |              8 |
+|  clk_i_IBUF_BUFG | spim_inst/n61_q[7]_i_1_n_0            |                                                 |                1 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n82_q_reg[27]_0[0] | sync_inst/data1_reg[0]                          |                3 |              8 |
+|  clk_i_IBUF_BUFG | I2CMaster_inst/n443_o[7]              |                                                 |                4 |              8 |
+|  clk_i_IBUF_BUFG | spim_inst/n95_q                       | spim_inst/n118_o                                |                2 |              8 |
+|  clk_i_IBUF_BUFG | sonar_uart_inst/rx_inst/rdata_o0      |                                                 |                1 |              8 |
+|  clk_i_IBUF_BUFG | uart_inst/rx_inst/rdata_o0            |                                                 |                3 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[0]_0[1] | sync_inst/data1_reg[0]                          |                3 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n82_q_reg[1]_0[3]  |                                                 |                5 |              8 |
+|  clk_i_IBUF_BUFG | I2CMaster_inst/n278_q[7]_i_2_n_0      | I2CMaster_inst/n278_q[7]_i_1_n_0                |                4 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n82_q_reg[1]_0[2]  |                                                 |                4 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n82_q_reg[1]_0[1]  |                                                 |                3 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n82_q_reg[1]_0[0]  |                                                 |                3 |              8 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/E[0]               |                                                 |                2 |              8 |
+|  clk_i_IBUF_BUFG |                                       | uart_inst/tx_inst/timer_reg[9]_i_1__0_n_0       |                4 |             10 |
+|  clk_i_IBUF_BUFG |                                       | uart_inst/rx_inst/timer_reg[9]_i_1_n_0          |                4 |             10 |
+|  clk_i_IBUF_BUFG |                                       | sonar_uart_inst/rx_inst/timer_reg[0]_i_1__1_n_0 |                4 |             14 |
+|  clk_i_IBUF_BUFG |                                       | sync_inst/data1_reg[0]                          |               16 |             23 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/data1_reg_reg[0]   | core_inst/fsm_inst/n914_q_reg_0                 |                9 |             30 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n914_q_reg         | sync_inst/data1_reg[0]                          |                9 |             31 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[24]         | sync_inst/data1_reg[0]                          |                7 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[14]         | sync_inst/data1_reg[0]                          |               19 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[15]         | sync_inst/data1_reg[0]                          |                8 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[16]         | sync_inst/data1_reg[0]                          |               10 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[17]         | sync_inst/data1_reg[0]                          |                6 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[18]         | sync_inst/data1_reg[0]                          |               21 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[19]         | sync_inst/data1_reg[0]                          |               11 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[20]         | sync_inst/data1_reg[0]                          |               10 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[21]         | sync_inst/data1_reg[0]                          |               12 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[22]         | sync_inst/data1_reg[0]                          |               20 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[23]         | sync_inst/data1_reg[0]                          |                8 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[12]         | sync_inst/data1_reg[0]                          |                7 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[25]         | sync_inst/data1_reg[0]                          |                7 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[26]         | sync_inst/data1_reg[0]                          |               23 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[27]         | sync_inst/data1_reg[0]                          |               10 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[28]         | sync_inst/data1_reg[0]                          |               12 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[29]         | sync_inst/data1_reg[0]                          |                9 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[30]         | sync_inst/data1_reg[0]                          |               19 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[31]         | sync_inst/data1_reg[0]                          |                9 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[13]         | sync_inst/data1_reg[0]                          |                7 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[11]         | sync_inst/data1_reg[0]                          |                8 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[10]         | sync_inst/data1_reg[0]                          |               18 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[8]          | sync_inst/data1_reg[0]                          |                7 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[7]          | sync_inst/data1_reg[0]                          |               12 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[9]          | sync_inst/data1_reg[0]                          |                7 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[6]          | sync_inst/data1_reg[0]                          |               26 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[5]          | sync_inst/data1_reg[0]                          |               11 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[4]          | sync_inst/data1_reg[0]                          |               15 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[3]          | sync_inst/data1_reg[0]                          |               13 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[2]          | sync_inst/data1_reg[0]                          |               27 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[1]          | sync_inst/data1_reg[0]                          |               13 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/p_0_in[0]          | sync_inst/data1_reg[0]                          |               15 |             32 |
+|  clk_i_IBUF_BUFG | I2CMaster_inst/n438_o[14]             |                                                 |               15 |             32 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n87_o              |                                                 |               17 |             37 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[0]_4[0] |                                                 |               24 |             63 |
+|  clk_i_IBUF_BUFG |                                       |                                                 |               31 |             84 |
+|  clk_i_IBUF_BUFG | core_inst/fsm_inst/n151_q_reg[2]_5[0] |                                                 |               50 |            146 |
++------------------+---------------------------------------+-------------------------------------------------+------------------+----------------+
+
+

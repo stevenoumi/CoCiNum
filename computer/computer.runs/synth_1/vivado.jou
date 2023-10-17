@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Apr  3 20:41:34 2023
+# Process ID: 12038
+# Current directory: /home/ing-angers/ndenoust/CoCiNum/CoCiNum/vivado/computer/computer.runs/synth_1
+# Command line: vivado -log Computer.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Computer.tcl
+# Log file: /home/ing-angers/ndenoust/CoCiNum/CoCiNum/vivado/computer/computer.runs/synth_1/Computer.vds
+# Journal file: /home/ing-angers/ndenoust/CoCiNum/CoCiNum/vivado/computer/computer.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Computer.tcl -notrace

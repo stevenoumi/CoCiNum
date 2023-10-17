@@ -1,0 +1,1030 @@
+
+*** Running vivado
+    with args -log Computer.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Computer.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source Computer.tcl -notrace
+Command: synth_design -top Computer -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12077 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1641.723 ; gain = 151.719 ; free physical = 6963 ; free virtual = 16548
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Computer' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Computer/Computer.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'Virgule' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:2257]
+INFO: [Synth 8-638] synthesizing module 'vstatemachine' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:2162]
+INFO: [Synth 8-256] done synthesizing module 'vstatemachine' (1#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:2162]
+INFO: [Synth 8-638] synthesizing module 'vdecoder' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1528]
+INFO: [Synth 8-256] done synthesizing module 'vdecoder' (2#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1528]
+INFO: [Synth 8-638] synthesizing module 'vregisters' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:618]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:982]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:991]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1000]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1009]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1018]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1027]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1036]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1045]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1054]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1063]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1110]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1119]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1128]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1137]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1146]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1155]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1164]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1173]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1182]
+INFO: [Synth 8-226] default block is never used [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:1191]
+INFO: [Synth 8-256] done synthesizing module 'vregisters' (3#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:618]
+INFO: [Synth 8-638] synthesizing module 'varithmeticandlogicunit' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:477]
+INFO: [Synth 8-256] done synthesizing module 'varithmeticandlogicunit' (4#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:477]
+INFO: [Synth 8-638] synthesizing module 'vbranchunit' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:309]
+INFO: [Synth 8-256] done synthesizing module 'vbranchunit' (5#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'vloadstoreunit' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'vloadstoreunit' (6#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'Virgule' (7#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:2257]
+INFO: [Synth 8-638] synthesizing module 'VMemory' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/VMemory.vhd:23]
+	Parameter CONTENT bound to: 1048576'b00000001010000000000000001101111000000001100000000000000011011110000000000000000000000000101000000000000000000000000000000000000001100000010000000000000011100110000000000000000000000011001011101111110110000011010000110000011000000000000000000000001000101110111111110000001001000010000001100000000000000000000001010010111011111101000001010100010100000110000000000000000000000110001011101111101100000110010001100000011000000000110001011111000011000110000000000000010101000000010001100000000010000101000001010010011111111100110001011101100111000110111011000000000000000001110111100000000000000000000001010010111111111000000001010100010100000110000000000000010100000000110011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010010011110000011000000001011011111100111101100110000000011110101001000000010001100000000000000001000000001100111000000000000010100100111100000111111111111110101110001011001001100000000111101011111010110110011000000001011010100100000001000110000000000000000100000000110011100000000010001010010010100000011000000001011010101110101001100110000000010100000001101010011001100000000000000001000000001100111000000001011010100100010001000110000000000000000100000000110011111111111000000010000000100010011000000000100010100100111100000110000000010000101001001011000001100000000100000010010010000100011000000000000010100000100000100110000000011000101001001010000001100000000111101011110010110110011000000000001000100100110001000111111101101011111111100001110111100000000100001000010010110000011000000000100010000100111100000110000000011000100001001010000001100000000100000010010010000000011000000001100000100100000100000110000000011110101111001011011001100000001000000010000000100010011111110111001111111110000011011110000000000000101001001111000001111111111000000010000000100010011000000001000000100100100001000110000000000010001001001100010001100000000000001010000010000010011000000001011011110000000001000110000000010000100001001011000001100000000110001000010010100000011111110000101111111110000111011111111111000000101000010101110001100000000100001000010010110000011000000001100010000100101000000110000000010000001001001000000001100000000110000010010000010000011000000010000000100000001000100111111011110011111111100000110111111111111000000010000000100010011000000001000000100100100001000110000000000010001001001100010001100000000000001010000010000010011000000000100010000100101100000110000000011000100001001010000001111110100110111111111000011101111111111100000010100001010111000110000000011000100001001010000001100000000010001000010010110000011111101001101111111110000111011110000000000000100001001111000001100000000110000010010000010000011000000001000000100100100000000110000000000000111110001010000001100001111111101010111010100010011000000010000000100000001000100110000000000000000100000000110011111111111000000010000000100010011000000001000000100100100001000110000000010010001001000100010001100000000000100010010011000100011000000000000010100000100100100110000000000000101100001000001001100000000000001000100010110000011000000000000010110011100011000110000000011000001001000001000001100000000100000010010010000000011000000000100000100100100100000110000000100000001000000010001001100000000000000001000000001100111000000000000010010000101000100110000000000010100000001000001001111110011110111111111000011101111111111011001111111110000011011110000000001000101001001011000001100000000110001010010010100000011111011010001111111110000011011110000000000000000100000000110011100000000000000001000000001100111000000001100010100000110001100110000000000000101000001111001001100000000110001111001010001100011000000000000000010000000011001110000000000010111100001111001001111111110101101111000111110100011111111110001111111110000011011110000000000000000000001111001001100000000110001111001010001100011000000000000000010000000011001110000000011110101100001110011001100000000000001110100011010000011000000001111010100000111001100110000000000010111100001111001001100000000110101110000000000100011111111100101111111110000011011111111111100000001000000010001001100000000100000010010010000100011000000000001000100100110001000110000000000000101000001000001001100000000101101010111111001100011111111001001111111110000111011110000000011000001001000001000001100000000000001000000010100010011000000001000000100100100000000110000000100000001000000010001001100000000000000001000000001100111000000000000011000000111000100110000000011100101100001111011001100000000110001010000011000110011000000000000011110000110100100110100000011010111100001011011001111111100111001011111110011100011111111111111011011000101100000111111111111110110100001101001001111111111111101100000011000010011000000001011011000000000001000111111111010011111111100000110111100000000000000000000011100010011000000001100011100010110011000110000000000000000000001010001001100000000000000001000000001100111000000001110010100000111101100110000000011100101100001101011001100000000000001111000011110000011000000000000011010000110100000110000000011010111100001100110001101000000110101111000010100110011000000000000000010000000011001110000000000010111000001110001001111111101010111111111000001101111000000000000010100000111100100111111110100000101000001010001001100001111111101010111010100010011000000001001000000000111000100110000000010100111011010000110001100000001100001010001010100010011010000011000010101010101000100110000000000000000100000000110011111111001111101111000011100010011000011111111011101110111000100110000000001010000000001101001001100000000111001101110100001100011111110101001011110000111100100110000000110000111100101010001001111111110000111111111000001101111111110111111011110000111000100110000111111110111011101110001001111111111111100000000010100010011111111001110011011101010111000111111110010010111100001111001001111111110010111111111000001101111111111110000000100000001000100110000000010000001001001000010001100000000100100010010001000100011000000010010000100100000001000110000000000010001001001100010001100000000000001011000100100010011000000000000010100000100000100110000000000000000000001001001001100000000000001000100010100000011000000100000010100010010011000110000000011000001001000001000001100000000000001000000010100010011000000001000000100100100000000110000000010011001001000000010001100000000010000010010010010000011000000000000000100101001000000110000000100000001000000010001001100000000000000001000000001100111111101100101111111110000111011111111110000000101010011101110001100000000010001001001010010010011000000001001010101100100101100110000000000010100000001000001001111111100010111111111000001101111111111110000000100000001000100110000000000010001001001100010001100000000100000010010010000100011000000001001000100100010001000110000000000000101000001001001001111011100110111111111000011101111111100110101111111110000111011110000000000000101000001000001001100000000000001001000010100010011110110111101111111110000111011110000111111110100011101000001001111110010000111111111000011101111000000000100010000010100000100110000000011000001001000001000001100000000100001010110010100110011000000001000000100100100000000110000000001000001001001001000001100001111111101010111010100010011000000010000000100000001000100110000000000000000100000000110011111110011000000010000000100010011111111111111000000000101100100111000000100000000000001010011011100001100000100010010011000100011000011001000000100100100001000110000110010010001001000100010001100001101001000010010000000100011000010111000000100100100001000110000101110010001001000100010001100001011001100010010111000100011000010110100000100101100001000110000101101010001001010100010001100001011011000010010100000100011000010110111000100100110001000110000101110100001001000000010001100001001101100010010111000100011110010100001111111110000111011111111111111110000000001011001001110000001000000000000010100110111110010111001111111110000111011110000001010000000000001100001001100000000000000000000010110010011000000101000000100000101000100111101110101011111111100001110111110000010000000000000011110110111000000001111000100101100001000110000000000010000000001111... (message truncated)
+WARNING: [Synth 8-6014] Unused sequential element index_reg was removed.  [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/VMemory.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'VMemory' (8#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/VMemory.vhd:23]
+INFO: [Synth 8-638] synthesizing module 'InputSynchronizer' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/InputSynchronizer/InputSynchronizer.vhd:22]
+	Parameter WIDTH bound to: 20 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/InputSynchronizer/InputSynchronizer.vhd:24]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/InputSynchronizer/InputSynchronizer.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'InputSynchronizer' (9#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/InputSynchronizer/InputSynchronizer.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'UART' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/UART/UART.vhd:27]
+	Parameter CLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
+	Parameter BIT_RATE_HZ bound to: 115200 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'SerialReceiver' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/UART/SerialReceiver.vhd:21]
+	Parameter CLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
+	Parameter BIT_RATE_HZ bound to: 115200 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SerialReceiver' (10#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/UART/SerialReceiver.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'SerialTransmitter' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/UART/SerialTransmitter.vhd:22]
+	Parameter CLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
+	Parameter BIT_RATE_HZ bound to: 115200 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SerialTransmitter' (11#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/UART/SerialTransmitter.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'UART' (12#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/UART/UART.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'VInterruptController' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/VInterruptController.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'VInterruptController' (13#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/VInterruptController.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'Timer' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Timer/Timer.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'Timer' (14#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Timer/Timer.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'UART__parameterized0' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/UART/UART.vhd:27]
+	Parameter CLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
+	Parameter BIT_RATE_HZ bound to: 9600 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'SerialReceiver__parameterized0' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/UART/SerialReceiver.vhd:21]
+	Parameter CLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
+	Parameter BIT_RATE_HZ bound to: 9600 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SerialReceiver__parameterized0' (14#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/UART/SerialReceiver.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'SerialTransmitter__parameterized0' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/UART/SerialTransmitter.vhd:22]
+	Parameter CLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
+	Parameter BIT_RATE_HZ bound to: 9600 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SerialTransmitter__parameterized0' (14#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/UART/SerialTransmitter.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'UART__parameterized0' (14#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/UART/UART.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'I2CMaster' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/I2C/I2CMaster-precompiled.vhd:30]
+	Parameter CLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
+	Parameter I2C_FREQUENCY_HZ bound to: 100000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'I2CMaster' (15#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/I2C/I2CMaster-precompiled.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'SPIMaster' [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/SPI/SPIMaster-precompiled.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'SPIMaster' (16#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/SPI/SPIMaster-precompiled.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'Computer' (17#1) [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Computer/Computer.vhd:42]
+WARNING: [Synth 8-3331] design I2CMaster has unconnected port reset_i
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[29]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[28]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[27]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[26]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[25]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[24]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[23]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[22]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[21]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[20]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[19]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[18]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[17]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[16]
+WARNING: [Synth 8-3331] design VMemory has unconnected port address_i[15]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[31]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[30]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[29]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[28]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[27]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[26]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[25]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[24]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[23]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[22]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[21]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[20]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[19]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[18]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[17]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[16]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[15]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[14]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[13]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[12]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[11]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[10]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[9]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[8]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[7]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[6]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[5]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[4]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[3]
+WARNING: [Synth 8-3331] design vloadstoreunit has unconnected port address_i[2]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[31]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[30]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[29]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[28]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[27]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[26]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[25]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[24]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[23]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[22]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[21]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[20]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[19]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[18]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[17]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[16]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[15]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[14]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[13]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[12]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[11]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[10]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[9]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[8]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[7]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[6]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[5]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[4]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[3]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[2]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[1]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_imm[0]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rs1[4]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rs1[3]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rs1[2]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rs1[1]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rs1[0]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rs2[4]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rs2[3]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rs2[2]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rs2[1]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rs2[0]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rd[4]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rd[3]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rd[2]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rd[1]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_rd[0]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_use_pc
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_use_imm
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_alu_fn[3]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_alu_fn[2]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_alu_fn[1]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_alu_fn[0]
+WARNING: [Synth 8-3331] design vbranchunit has unconnected port instr_i_is_load
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1763.574 ; gain = 273.570 ; free physical = 6933 ; free virtual = 16519
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 1763.574 ; gain = 273.570 ; free physical = 6938 ; free virtual = 16525
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 1763.574 ; gain = 273.570 ; free physical = 6938 ; free virtual = 16525
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc]
+WARNING: [Vivado 12-584] No ports matched 'btn_up_i'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:3]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_left_i'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:4]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_right_i'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:5]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_down_i'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:6]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Buttons.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Computer_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Computer_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Clock.xdc]
+Finished Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Clock.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Clock.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Computer_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Computer_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc]
+Finished Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_LEDs.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Computer_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Computer_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Switches.xdc]
+Finished Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Switches.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_Switches.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Computer_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Computer_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_UART.xdc]
+Finished Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_UART.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_UART.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Computer_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Computer_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc]
+WARNING: [Vivado 12-584] No ports matched 'pmod_a7'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:6]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_a8'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:7]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_a9'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:8]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_a10'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:9]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodA.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Computer_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Computer_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc]
+WARNING: [Vivado 12-584] No ports matched 'pmod_b1'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:2]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_b2'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:3]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_b7'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:6]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_b8'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:7]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_b9'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:8]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_b10'. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:9]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Basys3/Basys3_PmodB.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Computer_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Computer_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/ing-angers/ndenoust/Téléchargements/Basys3_PmodC.xdc]
+WARNING: [Vivado 12-584] No ports matched 'pmod_c7'. [/home/ing-angers/ndenoust/Téléchargements/Basys3_PmodC.xdc:6]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/Téléchargements/Basys3_PmodC.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_c8'. [/home/ing-angers/ndenoust/Téléchargements/Basys3_PmodC.xdc:7]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/Téléchargements/Basys3_PmodC.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_c9'. [/home/ing-angers/ndenoust/Téléchargements/Basys3_PmodC.xdc:8]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/Téléchargements/Basys3_PmodC.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmod_c10'. [/home/ing-angers/ndenoust/Téléchargements/Basys3_PmodC.xdc:9]
+WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ing-angers/ndenoust/Téléchargements/Basys3_PmodC.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/ing-angers/ndenoust/Téléchargements/Basys3_PmodC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ing-angers/ndenoust/Téléchargements/Basys3_PmodC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Computer_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Computer_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1885.402 ; gain = 0.000 ; free physical = 6833 ; free virtual = 16435
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1885.402 ; gain = 0.000 ; free physical = 6833 ; free virtual = 16435
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1885.402 ; gain = 395.398 ; free physical = 6904 ; free virtual = 16506
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1885.402 ; gain = 395.398 ; free physical = 6904 ; free virtual = 16506
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1885.402 ; gain = 395.398 ; free physical = 6904 ; free virtual = 16507
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Virgule/Virgule-precompiled.vhd:515]
+INFO: [Synth 8-5544] ROM "n962_o" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'SerialReceiver'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'SerialTransmitter'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'SerialReceiver__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'SerialTransmitter__parameterized0'
+WARNING: [Synth 8-6841] Block RAM (data_reg_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+(address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute "ram_decomp = power" if BWWE is desired.)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              idle_state |                               01 |                               00
+             start_state |                               11 |                               01
+              data_state |                               10 |                               10
+              stop_state |                               00 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'SerialReceiver'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              idle_state |                               01 |                               00
+             start_state |                               11 |                               01
+              data_state |                               10 |                               10
+              stop_state |                               00 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'SerialTransmitter'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              idle_state |                               01 |                               00
+             start_state |                               11 |                               01
+              data_state |                               10 |                               10
+              stop_state |                               00 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'SerialReceiver__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              idle_state |                               01 |                               00
+             start_state |                               11 |                               01
+              data_state |                               10 |                               10
+              stop_state |                               00 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'SerialTransmitter__parameterized0'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1885.402 ; gain = 395.398 ; free physical = 6895 ; free virtual = 16497
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 5     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 6     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	             1024 Bit    Registers := 1     
+	               63 Bit    Registers := 1     
+	               40 Bit    Registers := 1     
+	               32 Bit    Registers := 16    
+	               20 Bit    Registers := 2     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 11    
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 9     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 11    
++---RAMs : 
+	            1024K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input   1024 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 20    
+	   2 Input     32 Bit        Muxes := 41    
+	  12 Input     32 Bit        Muxes := 2     
+	   3 Input     32 Bit        Muxes := 1     
+	  10 Input     32 Bit        Muxes := 1     
+	   3 Input      9 Bit        Muxes := 1     
+	   4 Input      9 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 3     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 6     
+	   9 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 2     
+	   7 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 6     
+	   4 Input      2 Bit        Muxes := 4     
+	   6 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 208   
+	   7 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 8     
+	   6 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Computer 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	  10 Input     32 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module vstatemachine 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   7 Input      1 Bit        Muxes := 1     
+Module vdecoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 49    
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module vregisters 
+Detailed RTL Component Info : 
++---Registers : 
+	             1024 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   1024 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 20    
+	   2 Input     32 Bit        Muxes := 2     
+Module varithmeticandlogicunit 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	  12 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 11    
+Module vbranchunit 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 8     
+Module vloadstoreunit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 11    
+Module Virgule 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               63 Bit    Registers := 1     
+	               32 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 1     
+Module VMemory 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---RAMs : 
+	            1024K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 1     
+Module InputSynchronizer 
+Detailed RTL Component Info : 
++---Registers : 
+	               20 Bit    Registers := 2     
+Module SerialReceiver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module SerialTransmitter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module VInterruptController 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 32    
+Module Timer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+Module SerialReceiver__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+Module SerialTransmitter__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module I2CMaster 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   3 Input      9 Bit        Muxes := 1     
+	   4 Input      9 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 5     
+	   4 Input      4 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 68    
+	   6 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+Module SPIMaster 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 15    
+	   4 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "n962_o" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-6841] Block RAM (data_reg_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+(address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute "ram_decomp = power" if BWWE is desired.)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (intc_inst/\events_reg_reg[21] )
+WARNING: [Synth 8-3332] Sequential element (FSM_sequential_state_reg_reg[1]) is unused and will be removed from module SerialTransmitter__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (FSM_sequential_state_reg_reg[0]) is unused and will be removed from module SerialTransmitter__parameterized0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:38 . Memory (MB): peak = 1885.402 ; gain = 395.398 ; free physical = 6844 ; free virtual = 16459
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++------------+--------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object   | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+--------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|VMemory:    | data_reg_reg | 32 K x 32(READ_FIRST)  | W | R |                        |   |   | Port A           | 0      | 32     | 
++------------+--------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_0_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_0_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_0_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_0_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_0_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_0_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_0_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_0_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_1_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_1_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_1_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_1_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_1_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_1_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_1_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_1_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_2_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_2_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_2_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_2_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_2_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_2_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_2_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_2_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_3_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_3_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_3_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_3_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_3_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_3_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_3_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/i_3/data_reg_reg_3_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 1885.402 ; gain = 395.398 ; free physical = 6710 ; free virtual = 16332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1947.418 ; gain = 457.414 ; free physical = 6639 ; free virtual = 16261
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping  Report
++------------+--------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object   | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+--------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|VMemory:    | data_reg_reg | 32 K x 32(READ_FIRST)  | W | R |                        |   |   | Port A           | 0      | 32     | 
++------------+--------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_0_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_0_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_0_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_0_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_0_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_0_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_0_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_0_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_1_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_1_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_1_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_1_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_1_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_1_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_1_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_1_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_2_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_2_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_2_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_2_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_2_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_2_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_2_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_2_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_3_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_3_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_3_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_3_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_3_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_3_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_3_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance mem_inst/data_reg_reg_3_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:51 . Memory (MB): peak = 1965.434 ; gain = 475.430 ; free physical = 6633 ; free virtual = 16255
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6064] Net core_address[4] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_address[5] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_address[6] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_address[7] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_address[8] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_address[9] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_address[10] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_address[11] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_address[12] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_address[13] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_address[14] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_address[15] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_address[16] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net mem_valid is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_address[3] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_write[2] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_write[3] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_write[0] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net core_write[1] is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:00:53 . Memory (MB): peak = 1969.402 ; gain = 479.398 ; free physical = 6634 ; free virtual = 16256
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:00:53 . Memory (MB): peak = 1969.402 ; gain = 479.398 ; free physical = 6634 ; free virtual = 16256
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:00:53 . Memory (MB): peak = 1969.402 ; gain = 479.398 ; free physical = 6634 ; free virtual = 16256
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:00:53 . Memory (MB): peak = 1969.402 ; gain = 479.398 ; free physical = 6634 ; free virtual = 16256
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:53 . Memory (MB): peak = 1969.402 ; gain = 479.398 ; free physical = 6634 ; free virtual = 16256
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:53 . Memory (MB): peak = 1969.402 ; gain = 479.398 ; free physical = 6634 ; free virtual = 16256
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |BUFG        |     1|
+|2     |CARRY4      |    74|
+|3     |LUT1        |     9|
+|4     |LUT2        |    51|
+|5     |LUT3        |   132|
+|6     |LUT4        |   414|
+|7     |LUT5        |   301|
+|8     |LUT6        |  1356|
+|9     |MUXF7       |    64|
+|10    |RAMB36E1    |     1|
+|11    |RAMB36E1_1  |     1|
+|12    |RAMB36E1_10 |     1|
+|13    |RAMB36E1_11 |     1|
+|14    |RAMB36E1_12 |     1|
+|15    |RAMB36E1_13 |     1|
+|16    |RAMB36E1_14 |     1|
+|17    |RAMB36E1_15 |     1|
+|18    |RAMB36E1_16 |     1|
+|19    |RAMB36E1_17 |     1|
+|20    |RAMB36E1_18 |     1|
+|21    |RAMB36E1_19 |     1|
+|22    |RAMB36E1_2  |     1|
+|23    |RAMB36E1_20 |     1|
+|24    |RAMB36E1_21 |     1|
+|25    |RAMB36E1_22 |     1|
+|26    |RAMB36E1_23 |     1|
+|27    |RAMB36E1_24 |     1|
+|28    |RAMB36E1_25 |     1|
+|29    |RAMB36E1_26 |     1|
+|30    |RAMB36E1_27 |     1|
+|31    |RAMB36E1_28 |     1|
+|32    |RAMB36E1_29 |     1|
+|33    |RAMB36E1_3  |     1|
+|34    |RAMB36E1_30 |     1|
+|35    |RAMB36E1_31 |     1|
+|36    |RAMB36E1_4  |     1|
+|37    |RAMB36E1_5  |     1|
+|38    |RAMB36E1_6  |     1|
+|39    |RAMB36E1_7  |     1|
+|40    |RAMB36E1_8  |     1|
+|41    |RAMB36E1_9  |     1|
+|42    |FDCE        |    16|
+|43    |FDRE        |  1731|
+|44    |FDSE        |    11|
+|45    |IBUF        |    21|
+|46    |IOBUF       |     2|
+|47    |OBUF        |    20|
++------+------------+------+
+
+Report Instance Areas: 
++------+--------------------+-------------------------------+------+
+|      |Instance            |Module                         |Cells |
++------+--------------------+-------------------------------+------+
+|1     |top                 |                               |  4235|
+|2     |  I2CMaster_inst    |I2CMaster                      |   216|
+|3     |  core_inst         |Virgule                        |  3350|
+|4     |    alu_inst        |varithmeticandlogicunit        |   134|
+|5     |    branch_inst     |vbranchunit                    |   494|
+|6     |    decoder_inst    |vdecoder                       |     1|
+|7     |    fsm_inst        |vstatemachine                  |   416|
+|8     |    load_store_inst |vloadstoreunit                 |     1|
+|9     |    reg_inst        |vregisters                     |  1880|
+|10    |  intc_inst         |VInterruptController           |    49|
+|11    |  mem_inst          |VMemory                        |    33|
+|12    |  sonar_uart_inst   |UART__parameterized0           |    68|
+|13    |    rx_inst         |SerialReceiver__parameterized0 |    68|
+|14    |  spim_inst         |SPIMaster                      |    69|
+|15    |  spit_inst         |Timer                          |   116|
+|16    |  sync_inst         |InputSynchronizer              |    40|
+|17    |  timer_inst        |Timer_0                        |   116|
+|18    |  uart_inst         |UART                           |   118|
+|19    |    rx_inst         |SerialReceiver                 |    69|
+|20    |    tx_inst         |SerialTransmitter              |    49|
++------+--------------------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:53 . Memory (MB): peak = 1969.402 ; gain = 479.398 ; free physical = 6634 ; free virtual = 16256
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 114 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:00:51 . Memory (MB): peak = 1969.402 ; gain = 357.570 ; free physical = 6692 ; free virtual = 16314
+Synthesis Optimization Complete : Time (s): cpu = 00:00:41 ; elapsed = 00:00:53 . Memory (MB): peak = 1969.410 ; gain = 479.398 ; free physical = 6707 ; free virtual = 16329
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 172 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1969.410 ; gain = 0.000 ; free physical = 6663 ; free virtual = 16286
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+201 Infos, 141 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:58 . Memory (MB): peak = 1969.410 ; gain = 606.750 ; free physical = 6804 ; free virtual = 16427
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1969.410 ; gain = 0.000 ; free physical = 6804 ; free virtual = 16427
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/ing-angers/ndenoust/CoCiNum/CoCiNum/vivado/computer/computer.runs/synth_1/Computer.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Computer_utilization_synth.rpt -pb Computer_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  3 20:42:41 2023...

@@ -1,0 +1,35 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto 99b487eb9d534c198c4054a3b6ad2863 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Computer_behav xil_defaultlib.Computer -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.virgule_pkg
+Compiling package xil_defaultlib.loader_pkg
+Compiling package xil_defaultlib.computer_pkg
+Compiling architecture rtl of entity xil_defaultlib.vstatemachine [vstatemachine_default]
+Compiling architecture rtl of entity xil_defaultlib.vdecoder [vdecoder_default]
+Compiling architecture rtl of entity xil_defaultlib.vregisters [vregisters_default]
+Compiling architecture rtl of entity xil_defaultlib.varithmeticandlogicunit [varithmeticandlogicunit_default]
+Compiling architecture rtl of entity xil_defaultlib.vbranchunit [vbranchunit_default]
+Compiling architecture rtl of entity xil_defaultlib.vloadstoreunit [vloadstoreunit_default]
+Compiling architecture rtl of entity xil_defaultlib.Virgule [virgule_default]
+Compiling architecture behavioral of entity xil_defaultlib.VMemory [\VMemory(content=("0000000101000...]
+Compiling architecture behavioral of entity xil_defaultlib.InputSynchronizer [\InputSynchronizer(width=19)\]
+Compiling architecture behavioral of entity xil_defaultlib.SerialReceiver [\SerialReceiver(clk_frequency_hz...]
+Compiling architecture behavioral of entity xil_defaultlib.SerialTransmitter [\SerialTransmitter(clk_frequency...]
+Compiling architecture structural of entity xil_defaultlib.UART [\UART(clk_frequency_hz=100000000...]
+Compiling architecture behavioral of entity xil_defaultlib.VInterruptController [\VInterruptController(31,0)\]
+Compiling architecture behavioral of entity xil_defaultlib.Timer [timer_default]
+Compiling architecture behavioral of entity xil_defaultlib.SerialReceiver [\SerialReceiver(clk_frequency_hz...]
+Compiling architecture behavioral of entity xil_defaultlib.SerialTransmitter [\SerialTransmitter(clk_frequency...]
+Compiling architecture structural of entity xil_defaultlib.UART [\UART(clk_frequency_hz=100000000...]
+Compiling architecture structural of entity xil_defaultlib.computer
+Built simulation snapshot Computer_behav

@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../src/vhdl/Virgule/Virgule_pkg.vhd" \
+"../../../../../../../src/vhdl/Computer/Loader_pkg.vhd" \
+"../../../../../../../src/vhdl/Computer/Computer_pkg.vhd" \
+"../../../../../../../src/vhdl/Virgule/Virgule-precompiled.vhd" \
+"../../../../../../../src/vhdl/Virgule/VMemory.vhd" \
+"../../../../../../../src/vhdl/InputSynchronizer/InputSynchronizer.vhd" \
+"../../../../../../../src/vhdl/UART/SerialReceiver.vhd" \
+"../../../../../../../src/vhdl/UART/SerialTransmitter.vhd" \
+"../../../../../../../src/vhdl/UART/UART.vhd" \
+"../../../../../../../src/vhdl/Virgule/VInterruptController.vhd" \
+"../../../../../../../src/vhdl/Timer/Timer.vhd" \
+"../../../../../../../src/vhdl/Computer/Computer.vhd" \
+
+# Do not sort compile order
+nosort

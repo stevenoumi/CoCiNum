@@ -1,0 +1,3 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Computer/Computer_pkg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/ing-angers/ndenoust/CoCiNum/src/vhdl/Computer/Computer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Computer'
